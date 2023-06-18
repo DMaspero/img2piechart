@@ -9,8 +9,13 @@ The researcher developed a computational model for mapping on spatial transcript
 Thus, we tought was a nice gift transform one of his picture into a piechart. 
 
 ## Installation
+```
 devtools::install_github("DMaspero/img2piechart")
+```
 
 ## Usage
-Run the shiny interface by typing img2piechart::app() in R/RStudio
+Run the shiny interface by typing the following in R/RStudio
+```
+img2piechart::app() 
+```
 
