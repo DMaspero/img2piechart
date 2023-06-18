@@ -19,3 +19,8 @@ Run the shiny interface by typing the following in R/RStudio
 img2piechart::app() 
 ```
 
+The app requires one image and two parameters
+- 'Color Cluster #': defines the number of distinc color cluster. You can see a preview in the top right part of the screen
+- 'piechart diameter' defines size of each pie chart and how many will be plotted.
+
+You can export the final result in vectorial (PDF) using the corresponding button (Click it only once)
