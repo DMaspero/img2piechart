@@ -8,6 +8,8 @@ The researcher developed a computational model for mapping on spatial transcript
 (see. https://marcelosua.github.io/SPOTlight/). One of the main output of the tool is a piechart. 
 Thus, we tought was a nice gift transform one of his picture into a piechart. 
 
+![Figure1](https://github.com/DMaspero/img2piechart/blob/main/man/preview.png)
+
 ## Installation
 ```
 devtools::install_github("DMaspero/img2piechart")
