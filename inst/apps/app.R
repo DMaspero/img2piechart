@@ -4,7 +4,7 @@ library(ggplot2)
 library(scatterpie)
 library(dplyr)
 library(tidyr)
-library(progress)
+
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
@@ -55,7 +55,7 @@ server <- function(input, output) {
 
     output$baseImg <- renderPlot({
 
-        plot(IMGdata(), axes = FALSE, main = "Base image")
+        plot(IMGdata(), axes = FALSE, main = "Source image")
 
     })
 

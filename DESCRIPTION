@@ -1,11 +1,18 @@
 Package: img2piechart
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Create a piechart from any images (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Davide", "Maspero", , "dav1989@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This shiny app takes as input any image (PNG, JPEG) that could be read by imager, cluster the pixel color via kmean, and transform it in a piechart. This shiny app was conceived for celebrating a PhD defense. The researcher developed a computational model for mapping on spatial transcriptomic data patter of cell population abundance (see. https://marcelosua.github.io/SPOTlight/). One of the main output of the tool is a piechart. Therefore, we tought was a nice present transform one of his picture into a piechart. 
+License: CC BY 4.0
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    dplyr,
+    ggplot2,
+    imager,
+    scatterpie,
+    shiny,
+    tidyr
