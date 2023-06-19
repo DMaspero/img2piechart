@@ -1,5 +1,6 @@
 # img2piechart
 Turning any images into a piechart. 
+The app is available online [here](https://dmaspero.shinyapps.io/apps/)
 
 ## Description
 This shiny app takes as input any image (PNG, JPEG) that could be read by imager, cluster the pixel color via kmean, and transform it in a piechart.
